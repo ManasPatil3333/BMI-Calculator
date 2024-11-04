@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BMICalculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <p class="p1">BMI</p>
+            <p class="p2">-CALCULATOR</p>
+        </div>
+        <form>
+            <div class="gender">
+                <p>Gender :</p>
+                <label>Male</label>
+                <input type="checkbox" id="ma">
+                <label>Female</label>
+                <input type="checkbox" id="fe">
+            </div>
+            <div class="age">
+                <label>Enter your Age :</label>
+                <input type="text" id="ag">
+            </div>
+            <div class="height">
+                <p>Enter your height (in cm) : </p>
+                <input type="text" id="hei">
+            </div>
+            <div class="weight">
+                <p>Enter your weight (in kg) : </p>
+                <input type="text" id="wei">
+            </div>
+            <button class="btn"><i class="fa-solid fa-calculator"></i></button>
+        </form>
+        <div class="guide">
+            <p class="p3">BMI WEIGHT GUIDE :</p>
+            <p class="p5">BMI Guide for Adults ( > 20 ) :</p>
+            <p class="p4">Severe Thinness : less than 16</p>
+            <p class="p4">Moderate Thinness : 16 - 17</p>
+            <p class="p4">Mild Thinness : 17 - 18.5</p>
+            <p class="p4">Normal : 18.5 - 25</p>
+            <p class="p4">Overweight : 25 - 30</p>
+            <p class="p4">Obese Class I : 30 - 35</p>
+            <p class="p4">Obese Class II : 35 - 40</p>
+            <p class="p4">Obese Class III : more than 40</p>
+            <!-- <p class="p5">BMI Guide for Childrens and Teens ( 2 - 20 ) :</p>
+            <p class="p4">Underweight : less than 17</p>
+            <p class="p4">Healthy weight : 17 - 21.1</p>
+            <p class="p4">At risk of overweight : 21.1 - 22.5</p>
+            <p class="p4">Overweight : more than 22.5</p> -->
+        </div>
+        <div class="result">
+            <p class="p6">Enter your data</p>
+        </div>
+    </div>
+    <script src="BMICalculator.js"></script>
+</body>
+</html>
